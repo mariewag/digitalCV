@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    justify-content: space-around;
+    align-items: center;
+    background-color: grey;
+    color: white;
+    height: 7rem;
+}
+
+.title {
+    font-size: 2rem;
+    margin: .5rem;
+    text-decoration: none;
+}
+
+.navbar-links ul {
+    margin: 0;
+    padding: 0;    
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: white;
+    padding: 0 2rem;
+    display: block;
+}
+
+
+
+
+/* Reusable code */ 
+.flex {
+    display: flex;
+}
+
+.grid {
+    display: grid;
+}
