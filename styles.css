@@ -94,6 +94,51 @@ h4 {
     color: white;
 }
 
+/* Footer */ 
+.footer-container {
+    justify-content: space-around;
+}
+
+.copyright {
+    font-size: .8rem;
+}
+  
+.icons ul {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+      
+}
+
+.icons ul li {
+    list-style: none;
+    margin: 0 1rem;
+}
+
+.icons ul li .fab {
+    font-size: 1.5rem;
+    line-height: 3rem;
+    color: black;
+}
+
+.icons ul li a {
+    position: relative;
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+.icons ul li a:hover {
+    background-color: blue;
+}
+
+.icons ul li .fab:hover {
+    color: tomato;
+}
+
 
 /* Reusable code */ 
 .flex {
