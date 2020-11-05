@@ -7,13 +7,14 @@ body {
     font-size: 1.2rem;
     font-style: normal;
     line-height: 1.6;
+    color: #303030;
 }
 
 /* Header */
 .navbar {
     justify-content: space-around;
     align-items: center;
-    background-color: grey;
+    background-color: lightgrey;
     color: white;
     height: 8rem;
     padding: 0 6rem;
@@ -24,6 +25,8 @@ body {
     font-size: 2rem;
     margin: .5rem;
     text-decoration: none;
+    font-weight: 600;
+    color: #303030;
 }
 
 .navbar-links ul {
@@ -37,12 +40,27 @@ body {
 
 .navbar-links li a {
     text-decoration: none;
-    color: white;
+    color: #303030;
     padding: 0 2rem;
     display: block;
 }
 
 /* Main */
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color:darkblue;
+    margin-bottom: 0rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 0rem;
+    line-height: 1;
+    color: #303030;
+}
+
 .about-container {
     /*grid-template-columns: repeat(2, minmax(22rem, 1rem));*/
     justify-content: center;
@@ -60,21 +78,19 @@ body {
     width: 40rem;     
 }
 
-/*.button-container {
-    grid-template-columns: 1fr;
-}
-
 .button {
-    border: .2rem solid blue;
+    border: .2rem solid darkblue;
     background: none;
-    color: blue;   
-    padding: 1rem 1rem;
+    color: darkblue;   
+    padding: .7rem 4rem;
     text-decoration: none;
-
+    font-weight: 500;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
 }
 
 .button:hover {
-    background-color: blue;
+    background-color: darkblue;
     color: white;
 }
 
@@ -88,18 +104,15 @@ body {
     display: grid;
 }
 
-h2 {
-    font-size: 2.2rem;
-    font-weight: 700;
-    color:darkblue;
-    margin-bottom: .1rem;
+.margin {
+    margin: 0;
 }
 
-h4 {
-    font-size: 1.2rem;
+.bold {
     font-weight: 500;
-    margin-top: 0rem;
 }
+
+
 
 
 
