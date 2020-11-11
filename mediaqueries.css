@@ -1,8 +1,35 @@
 /* Tablet */
 @media (max-width: 750px) {
+    /* Main */
+    body {
+        font-size: 1rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+        line-height: 1.8rem;
+    }
+
+    h4 {
+        font-size: 1rem;
+        
+    }
+
+    .image-face {
+        width: 15rem;
+        height: 15rem; 
+        margin-top: 6rem;
+        padding-left: 1rem;
+    }
+
+
+
+    /* Header */
     header .navbar {
         padding: 0 2rem;
     }
+
+    /* Burger-menu */
     .icon {
         display: block;
     }
@@ -10,9 +37,9 @@
     .navbar-links {
         position: absolute;
         top: 0;
-        left: -100%;
-        background: seagreen;
-        height: 70vh;
+        right: 0;
+        background: lightgrey;
+        height: 35vh;
         width: 100%;
         max-width: 20rem;
         display: block;
@@ -26,12 +53,33 @@
     }
 
     .navbar-links li {
-        margin-top: 10rem;
+        margin-top: 5.5rem;
     }
 
     .navbar-links li a {
         font-size: 1rem;
+        line-height: 0;
         transition: all 0.3s ease;
+    }
+
+    /* Footer */
+    footer .footer-container {
+        padding: 0 2rem;
+    }
+
+    .icons ul li .fab {
+        font-size: 1.2rem;
+        line-height: 2.3rem;
+        color: darkblue;
+    }
+
+    .icons ul li a {
+        height: 2.2rem;
+        width: 2.2rem;
+    }
+
+    .copyright {
+        font-size: .7rem;
     }
 
 
