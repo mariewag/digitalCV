@@ -1,0 +1,78 @@
+/* Tablet */
+@media (max-width: 750px) {
+    header .navbar {
+        padding: 0 2rem;
+    }
+    .icon {
+        display: block;
+    }
+
+    .navbar-links {
+        position: absolute;
+        top: 0;
+        left: -100%;
+        background: seagreen;
+        height: 70vh;
+        width: 100%;
+        max-width: 20rem;
+        display: block;
+        padding: 2rem 0;
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+
+    .navbar-links.active {
+        left: 0%;
+    }
+
+    .navbar-links li {
+        margin-top: 10rem;
+    }
+
+    .navbar-links li a {
+        font-size: 1rem;
+        transition: all 0.3s ease;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    /*nav .navbar-links {
+        height: 100vh;
+        position: fixed;
+        top: 0rem;
+        right: 0;
+        left: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: lightgrey;
+        transition: top 1s ease;
+        display: none;
+    }
+
+    nav .navbar-links .close-menu {
+        display: block;
+        position: absolute;
+        top: 3rem;
+        right: 3rem;
+        
+    }
+
+    nav .burger-menu {
+        display: block;
+        margin: 1rem;
+    }*/
+
+
+
+
+
+}

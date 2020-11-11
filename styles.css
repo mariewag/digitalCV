@@ -46,6 +46,53 @@ header {
     display: block;
 }
 
+nav .navbar-links li a:hover {
+    color: white;   
+}
+
+/* Burger-menu */
+.icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: none;
+    color: black;
+    margin-right: .5rem;
+}
+
+.icon.hide {
+    display: 0;
+}
+
+.icon.cancel-btn {
+    position: absolute;
+    right: 2rem;
+    top: 7rem;
+}
+
+
+/*nav .burger-menu {
+    font-size: 2rem;
+    margin: 5rem;
+    display: none;
+    cursor: pointer;
+}
+
+nav .close-menu {
+    display: none;
+    cursor: pointer;
+    font-size: 2rem;
+}*/
+
+nav #icon {
+    color: red;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    float: right;
+    margin-right: 10rem;
+    cursor: pointer;
+    display: none;
+}
+
 /* Main index */
 h2 {
     font-size: 2rem;
@@ -157,7 +204,7 @@ h4 {
     list-style-type: none;
     color: white;
     font-weight: 600;
-    line-height: 2.5rem;
+    line-height: 2rem;
 }
 
 .skills-img {
@@ -172,6 +219,35 @@ h4 {
     max-width: 50%;
 }
 
+/* Main projects */
+/* First the Grid */
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-gap: .8rem;
+    justify-items: center;
+    margin: 0;
+    padding: 0;
+    max-width: 70rem;
+  }
+  
+  /* The Picture Frame */
+  .gallery-frame {
+    padding: .5rem;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: #333;
+    color: #d9d9d9;
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+  
+  /* The Images */
+  .gallery-img {
+    width: 100%;
+    height: 20rem;
+    object-fit: cover;
+}
 
 /* Footer */ 
 footer {
@@ -182,8 +258,7 @@ footer {
 .footer-container {
     justify-content: space-between;
     align-items: center;
-    height: 6rem;
-    
+    height: 6rem;   
 }
 
 .copyright {
@@ -267,6 +342,9 @@ ul li.active a {
 .color {
     color: darkblue;
 }
+
+
+
 
 
 
