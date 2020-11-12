@@ -8,18 +8,30 @@ body {
     font-style: normal;
     line-height: 1.6;
     color: #303030;
+    background: #F8F8F8;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 /* Header */
-header {
+#header-nav {
     background-color: lightgrey;
+    top: 0;
+    right: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    display: block;
+    transition: top 0.3s; 
 }
 
 .navbar {
     justify-content: space-between;
     align-items: center;
     color: white;
-    height: 6rem;   
+    height: 6rem; 
 }
 
 .title {
@@ -50,6 +62,17 @@ nav .navbar-links li a:hover {
     color: white;   
 }
 
+/* Name-header */
+.cont {
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
 /* Burger-menu */
 .icon {
     font-size: 1.5rem;
@@ -70,30 +93,8 @@ nav .navbar-links li a:hover {
 }
 
 
-/*nav .burger-menu {
-    font-size: 2rem;
-    margin: 5rem;
-    display: none;
-    cursor: pointer;
-}
-
-nav .close-menu {
-    display: none;
-    cursor: pointer;
-    font-size: 2rem;
-}*/
-
-nav #icon {
-    color: red;
-    font-size: 1.5rem;
-    line-height: 2rem;
-    float: right;
-    margin-right: 10rem;
-    cursor: pointer;
-    display: none;
-}
-
 /* Main index */
+
 h2 {
     font-size: 2rem;
     font-weight: 600;
@@ -142,6 +143,7 @@ h4 {
     background-color: darkblue;
     color: white;
 }
+
 
 /* Main cv */
 .cv-info {
@@ -205,11 +207,11 @@ h4 {
     list-style-type: none;
     color: white;
     font-weight: 600;
-    line-height: 2rem;
+    line-height: 2.8rem;
 }
 
 .skills-img {
-    width: 100%;
+    width: 70rem;
 }
 
 .code-img {
@@ -221,34 +223,71 @@ h4 {
 }
 
 /* Main projects */
-/* First the Grid */
-.gallery-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-    grid-gap: .8rem;
+.main-projects {
+    grid-template-columns: repeat(auto-fit, minmax(80rem, 1fr));
+    grid-gap: 1rem;
     justify-items: center;
+}
+
+.gallery-grid {
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-gap: 1rem;
     margin: 0;
     padding: 0;
-    max-width: 70rem;
+    max-width: 80rem;
+    margin-top: 2rem;
   }
   
-  /* The Picture Frame */
+  
   .gallery-frame {
     padding: .5rem;
     font-size: 1.2rem;
     text-align: center;
-    background-color: #333;
-    color: #d9d9d9;
+    background-color: white;
+    color: black;
+    border:	.1rem lightgrey solid;
     margin: 0;
     margin-bottom: 1rem;
+    width: 20rem;
   }
   
-  /* The Images */
   .gallery-img {
     width: 100%;
     height: 20rem;
     object-fit: cover;
 }
+
+  figcaption {
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-top: .7rem;
+    margin-bottom: 0;
+    line-height: 2rem;
+    
+}
+
+.img-text {
+    line-height: 1.4rem;
+    margin-top: .3rem;
+}
+
+.button-small {
+    border: .2rem solid darkblue;
+    background: none;
+    color: darkblue;   
+    padding: .3rem 2rem;
+    text-decoration: none;
+    font-weight: 500;
+    margin-top: .4rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+}
+
+.button-small:hover {
+    background-color: darkblue;
+    color: white;
+}
+
 
 /* Footer */ 
 footer {
@@ -304,7 +343,8 @@ footer {
     color: white;
 }
 
-ul li.active a {
+ul li a:hover,
+.active {
     color: white;
 }
 

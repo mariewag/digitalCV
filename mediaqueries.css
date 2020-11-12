@@ -1,6 +1,5 @@
 /* Tablet */
 @media (max-width: 750px) {
-    /* Main */
     body {
         font-size: 1rem;
     }
@@ -15,11 +14,17 @@
         
     }
 
+    /* Main index */
     .image-face {
         width: 15rem;
         height: 15rem; 
         margin-top: 6rem;
         padding-left: 1rem;
+    }
+
+    /* Main cv */
+    .skills-text ul li {
+        line-height: 2rem;
     }
 
 
@@ -37,7 +42,7 @@
     .navbar-links {
         position: absolute;
         top: 0;
-        right: 0;
+        right: -100%;
         background: lightgrey;
         height: 35vh;
         width: 100%;
@@ -49,7 +54,7 @@
     }
 
     .navbar-links.active {
-        left: 0%;
+        right: 0%;
     }
 
     .navbar-links li {
@@ -81,46 +86,4 @@
     .copyright {
         font-size: .7rem;
     }
-
-
-
-
-
-
-
-
-
-
-
-    /*nav .navbar-links {
-        height: 100vh;
-        position: fixed;
-        top: 0rem;
-        right: 0;
-        left: 0;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        background: lightgrey;
-        transition: top 1s ease;
-        display: none;
-    }
-
-    nav .navbar-links .close-menu {
-        display: block;
-        position: absolute;
-        top: 3rem;
-        right: 3rem;
-        
-    }
-
-    nav .burger-menu {
-        display: block;
-        margin: 1rem;
-    }*/
-
-
-
-
-
 }
