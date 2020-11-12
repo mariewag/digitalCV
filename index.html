@@ -14,27 +14,36 @@
 
 <body>
     <!-- Header -->
+    <section id="header-nav">
     <header class="flex center">
         <nav class="navbar flex container">
             <a class="title" href="#">Marie Wagle</a> 
-         <!--<div class="burger-menu"><i class="fas fa-bars"></i></div>-->
             <ul class="navbar-links flex">
                 <div class="icon cancel-btn">
                     <i class="fas fa-times"></i>
                 </div>
-                <li class="active"><a href="#">Om meg</a></li>
-                <li><a href="cv.html">CV</a></li>
-                <li><a href="projects.html">Prosjekter</a></li>
-                <!--<div class="close-menu"><i class="fas fa-times"></i></div>-->  
+                <li><a href="#about">Om meg</a></li>
+                <li><a href="#cv">CV</a></li>
+                <li><a href="#projects">Prosjekter</a></li>
+                <li><a href="#contact">Kontakt</a></li>
             </ul>
             <div class="icon menu-btn">
                 <i class="fas fa-bars"></i>
             </div>
         </nav>
     </header>
+</section>
+    <section id="hero">
+        <div class="hero cont">
+            <p>Frontend-utvikler</p>
+            <h1>Marie Wagle</h1>
+            <p>Grafisk designer</p>
+        </div>
+</section>
 
-    <!-- Main -->
-    <main class="flex center">
+    <!-- Main home -->
+        <section id="about">
+        <div class="about cont">
         <div class="about-container flex container">
             <img class="image-face flex" src="./images/marie-rund.png" alt="womans face">
             <div class="about-me">
@@ -51,12 +60,182 @@
                 <div class="button-container flex">
                     <a role="button" class="button flex" href="#">Se mine prosjekter</a>
                 </div>
-                <h2>Kontakt</h2>
-                <p class="margin bold"><i class="far fa-envelope color"></i> mariewagle@hotmail.com</p>
-                <p class="margin bold"><i class="fas fa-phone-alt color"></i> +47 948 00 025</p>
             </div>
         </div>
-    </main>
+    </div>
+</section>
+
+<!--CV!!-->
+<section id="cv">
+    <div class="cv cont">
+
+<div class="work-title grid center">
+    <h2>Arbeidserfaring</h2>
+</div>
+<div class="cv-info grid center">
+    <div class="cv-info-grid grid">
+        <p class="cv-info-date">Jun 2018 - Jun 2019</p>
+    </div>
+    <div class="cv-info-text">
+        <p class="bold">Salgsfremmer</p>
+        <p>ManpowerGroup AS</p>
+    </div>
+    <div class="cv-info-grid grid">
+        <p class="cv-info-date">Nov 2016 - Apr 2017</p>
+    </div>
+    <div class="cv-info-text">
+        <p class="bold">Kasserer og heisvakt</p>
+        <p>Tryvann Vinterpark</p>
+    </div>
+    <div class="cv-info-grid grid">
+        <p class="cv-info-date">Aug 2014 - Jan 2015</p>
+    </div>
+    <div class="cv-info-text">
+        <p class="bold">Barnehageassistent</p>
+        <p>Adecco</p>
+    </div>
+    <div class="cv-info-grid grid">
+        <p class="cv-info-date">Jan 2011 - Aug 2016</p>
+    </div>
+    <div class="cv-info-text">
+        <p class="bold">Tennistrener</p>
+        <p>Nordberg tennisklubb</p>
+    </div>
+</div>
+
+<div class="education-title grid center">
+    <h2>Utdanning</h2>
+</div>
+<div class="cv-info grid center">
+    <div class="cv-info-grid grid">
+        <p class="cv-info-date">Sep 2020 - Jun 2022</p>
+    </div>
+    <div class="cv-info-text">
+        <p class="bold">Frontend Developer</p>
+        <p>Medieinstitutet</p>
+    </div>
+    <div class="cv-info-grid grid">
+        <p class="cv-info-date">Aug 2017 - Jun 2020</p>
+    </div>
+    <div class="cv-info-text">
+        <p class="bold">Grafisk design</p>
+        <p>NTNU - Norges tekniske og 
+            naturvitenskapelige universitet</p>
+    </div>
+    <div class="cv-info-grid grid">
+        <p class="cv-info-date">Jan 2015 - Mai 2015</p>
+    </div>
+    <div class="cv-info-text">
+        <p class="bold">Spansk og ex.phil</p>
+        <p>Kulturstudier i Buenos Aires, Argentina</p>
+    </div>
+    <div class="cv-info-grid grid">
+        <p class="cv-info-date">Aug 2011 - Jun 2014</p>
+    </div>
+    <div class="cv-info-text">
+        <p class="bold">Studiespesialisering</p>
+        <p>Kristelig gymnasium</p>
+    </div>
+</div>
+
+<h2 class="skills-title flex center">Ferdigheter</h2>
+<div class="skills-container flex center">
+<div class="skills-img flex">
+<img class="code-img" src="../images/code.png" alt="code-lines">
+<img class="design-img" src="../images/design.png" alt="hand holding a pen">
+</div>
+<div class="skills-text flex">
+    <ul class="skills-left">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Javascript</li>
+        <li>PHP</li>
+    </ul>
+    <ul class="skills-right">
+        <li>InDesign</li>
+        <li>Illustrator</li>
+        <li>Photoshop</li>
+        <li>AdobeXD</li>
+    </ul>
+</div> 
+</div>  
+</div> 
+
+<!--PROSJEKTER!!-->
+<section id="projects">
+    <div class="projects cont">
+<h2 class="work-title">Prosjekter</h2>
+<div class="gallery-grid grid center">
+  <figure class="gallery-frame">
+    <img class="gallery-img" src="../images/horrorhouse.png" alt="scary house">
+    <figcaption>Horror House</figcaption>
+    <p class="img-text">
+      I dette prosjektet har jeg utviklet et tekstbasert interaktivt opplevelsesspill med et Halloween-inspirert tema. Spillet foregår i et skummelt, hjemsøkt hus, hvor du er fanget, og du må finne den skjulte nøkkelen for å komme deg ut. 
+    </p>
+    <div class="img-button flex center">
+      <a role="button" class="button-small flex" href="https://github.com/mariewag/horrorHouse">GitHub</a>
+  </div>
+  </figure>
+  <figure class="gallery-frame">
+    <img class="gallery-img" src="../images/shein.png" alt="shein website redesign">
+    <figcaption>Shein</figcaption>
+    <p class="img-text">
+      Redesign av Shein, en netthandelside som selger klær til kvinner, menn og barn. Målet var å forbedre designet med en enklere layout uten for mange stressende elementer. Det har også vært et stort fokus på responsivitet. 
+    </p>
+    <div class="img-button flex center">
+      <a role="button" class="button-small flex" href="https://github.com/mariewag/shein">GitHub</a>
+  </div>
+  </figure>
+  <figure class="gallery-frame">
+    <img class="gallery-img" src="../images/eventur.png" alt="mac and iphone">
+    <figcaption>Eventur</figcaption>
+    <p class="img-text">
+      «Eventur» er en overnattingstjeneste for uvanlige og spesielle overnattingssteder i Norden, «der ingen skulle tru at nokon kunne bu». Tjenesten tilbyr overnatting i iglo, lavvo, moderne tretopphytter m.m.  
+    </p>
+    <div class="img-button flex center">
+      <a role="button" class="button-small flex" href="https://www.behance.net/gallery/107126235/Overnattingstjeneste">Behance</a>
+  </div>
+  </figure>
+  <figure class="gallery-frame">
+    <img class="gallery-img" src="../images/min.png" alt="Image form https://picsum.photos" title="Image form https://picsum.photos">
+    <figcaption>Markedsforeningen Innlandet</figcaption>
+    <p class="img-text">
+      Ny visuell identitet for MIN - Markedsforeningen Innlandet, samt deres arrangement Innlandsperler. Den visuelle identiteten er implementert på ulike kontaktflater, bla grunnelementer, visittkort, nettside, banner, app.
+    </p>
+    <div class="img-button flex center">
+      <a role="button" class="button-small flex" href="https://www.behance.net/gallery/107123061/MIN-Markedsforeningen-Innlandet">Behance</a>
+  </div>
+  </figure>
+  <figure class="gallery-frame">
+    <img class="gallery-img" src="../images/paper.jpg" alt="newspaper">
+    <figcaption>Finansavisen</figcaption>
+    <p class="img-text">
+      Redesign av Finansavisen, en riksdekkende dagsavis som fokuserer på nyheter innen økonomi og næringsliv. Målet var å lage et seriøst og elegant design som formidler at det er en veletablert avis. Fargetonene er beholdt da det er en viktig del av avisens konservative identitet. 
+    </p>
+    <div class="img-button flex center">
+      <a role="button" class="button-small flex" href="https://www.behance.net/gallery/107124579/Finansavisen">Behance</a>
+  </div>
+  </figure>
+  <figure class="gallery-frame">
+    <img class="gallery-img" src="../images/magazine.png" alt="travel magazine">
+    <figcaption>Escape</figcaption>
+    <p class="img-text">
+      Design av et norsk reisemagasin dedikert til luksuriøse og eksklusive reisemål over hele verden. Jeg har vært opptatt av å få frem et ekslusivt og rent uttrykk ved hjelp av bla lite tekst, gullelementer og luft.
+    </p>
+    <div class="img-button flex center">
+      <a role="button" class="button-small flex" href="https://www.behance.net/gallery/107124579/Finansavisen">Behance</a>
+  </div>
+  </figure>
+  </div>
+</section>
+
+<section id="contact">
+<div class="contact cont">
+    <h2>Kontakt</h2>
+    <p class="margin bold"><i class="far fa-envelope color"></i> mariewagle@hotmail.com</p>
+    <p class="margin bold"><i class="fas fa-phone-alt color"></i> +47 948 00 025</p>
+</div>
+</section>
 
     <!-- Footer -->
     <footer class="flex center">
