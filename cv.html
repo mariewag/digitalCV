@@ -9,7 +9,6 @@
     <link rel="shortcut icon" href="./images/ikon.png" type="favicon/ico" />
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="mediaqueries.css">
-    <script src="script.js"></script>
     <script src="https://kit.fontawesome.com/fb5cf48aaa.js" crossorigin="anonymous"></script>
 </head>
 
@@ -19,16 +18,22 @@
         <nav class="navbar flex container">
             <a class="title" href="index.html">Marie Wagle</a>
             <ul class="navbar-links flex">
+                <div class="icon cancel-btn">
+                    <i class="fas fa-times"></i>
+                </div>
                 <li><a href="index.html">Om meg</a></li>
                 <li class="active"><a href="cv.html">CV</a></li>
                 <li><a href="projects.html">Prosjekter</a></li>
             </ul>
+            <div class="icon menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
         </nav>
     </header>
 
     <!-- Main -->
     <main>
-        <div class="work-title grid center">
+    <div class="work-title grid center">
             <h2>Arbeidserfaring</h2>
         </div>
         <div class="cv-info grid center">
@@ -118,7 +123,7 @@
             </ul>
         </div> 
     </div>  
-</div>
+</div>    
 </main>
 
     <!-- Footer -->
@@ -134,6 +139,6 @@
             </div>
         </div>
     </footer>
-
+    <script src="script.js"></script>
 </body>
 </html>
