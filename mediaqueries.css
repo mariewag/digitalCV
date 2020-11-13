@@ -85,7 +85,7 @@
         top: 0;
         right: -100%;
         background: lightgrey;
-        height: 50vh;
+        height: 45vh;
         width: 100%;
         max-width: 20rem;
         display: block;
@@ -182,7 +182,7 @@
     body {
         font-size: .9rem;
     }
-    
+
     /* Start */
     .name-title {
         font-size: 2.8rem;
