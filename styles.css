@@ -15,7 +15,7 @@ html {
     scroll-behavior: smooth;
 }
 
-/* Header */
+/* HEADER */
 #header-nav {
     background-color: lightgrey;
     top: 0;
@@ -64,6 +64,7 @@ nav .navbar-links li a:hover {
 
 .logo {
     width: 4rem;
+    padding: 0 .5rem;
 }
 
 /* BURGER MENU */
@@ -150,7 +151,6 @@ nav .navbar-links li a:hover {
 /* ABOUT */
 .about-container {
     flex-direction: column;
-    padding: 0 1rem; 
     width: 100%;
     max-width: 50rem;
 }
@@ -166,7 +166,8 @@ nav .navbar-links li a:hover {
 }
 
 .about-me {
-    text-align: center;     
+    text-align: center; 
+    padding: 0 1rem;    
 }
 
 .about-header {
@@ -175,9 +176,9 @@ nav .navbar-links li a:hover {
 }
 
 .button {
-    border: .2rem solid darkblue;
+    border: .2rem solid #28316F;
     background: none;
-    color: darkblue;   
+    color: #28316F;   
     padding: .7rem 3rem;
     text-decoration: none;
     font-weight: 500;
@@ -186,15 +187,16 @@ nav .navbar-links li a:hover {
 }
 
 .button:hover {
-    background-color: darkblue;
+    background-color: #28316F;
     color: white;
 }
 
 
-/* Main cv */
+/* CV */
 .cv-info {
     grid-template-columns: 1fr 1fr;
-    gap: 4rem; 
+    gap: 4rem;
+    padding: 0 1rem; 
 }
 
 .cv-info-grid {
@@ -211,48 +213,8 @@ nav .navbar-links li a:hover {
     margin: 0;
 }
 
-.skills-container {
-    position: relative;
-    text-align: center;
-    align-items: center;
-    width: 100%;
-  }
 
-.skills-text {
-    position: absolute;
-    justify-content: space-between;
-    width: 100%;    
-  }
-
-.skills-left {
-    width: 45%;
-  }
-
-.skills-right {
-    width: 50%;
-    list-style-type: none;
-}
-
-.skills-text ul li {
-    list-style-type: none;
-    color: white;
-    font-weight: 600;
-    line-height: 2.8rem;
-}
-
-.skills-img {
-    width: 70rem;
-}
-
-.code-img {
-    max-width: 50%;
-}
-
-.design-img {
-    max-width: 50%;
-}
-
-/* Main projects */
+/* PROJECTS */
 .projects {
     grid-template-columns: repeat(auto-fit, minmax(80rem, 1fr));
     grid-gap: 1rem;
@@ -260,14 +222,12 @@ nav .navbar-links li a:hover {
 }
 
 .gallery-grid {
-    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 1rem;
     margin: 0;
     padding: 0;
     max-width: 80rem;
-    margin-top: 2rem;
   }
-  
   
   .gallery-frame {
     padding: .5rem;
@@ -292,8 +252,7 @@ nav .navbar-links li a:hover {
     font-size: 1.5rem;
     margin-top: .7rem;
     margin-bottom: 0;
-    line-height: 2rem;
-    
+    line-height: 2rem;   
 }
 
 .img-text {
@@ -302,9 +261,9 @@ nav .navbar-links li a:hover {
 }
 
 .button-small {
-    border: .2rem solid darkblue;
+    border: .2rem solid #28316F;
     background: none;
-    color: darkblue;   
+    color: #28316F;   
     padding: .3rem 2rem;
     text-decoration: none;
     font-weight: 500;
@@ -314,7 +273,7 @@ nav .navbar-links li a:hover {
 }
 
 .button-small:hover {
-    background-color: darkblue;
+    background-color: #28316F;
     color: white;
 }
 
@@ -329,10 +288,11 @@ nav .navbar-links li a:hover {
 }
 
 
-/* Footer */ 
+/* FOOTER */ 
 footer {
     background-color: lightgrey;
     margin-top: 4rem;
+    width: 100%;
 }
 
 .footer-container {
@@ -362,7 +322,7 @@ footer {
 .icons ul li .fab {
     font-size: 1.5rem;
     line-height: 3rem;
-    color: darkblue;
+    color: #28316F;
 }
 
 .icons ul li a {
@@ -371,19 +331,19 @@ footer {
     width: 3rem;
     height: 3rem;
     border-radius: 50%;
-    border: .2rem solid darkblue;
+    border: .2rem solid #28316F;
     text-align: center;
 }
 
 .icons ul li a:hover {
-    background-color: darkblue;
+    background-color: #28316F;
 }
 
 .icons ul li .fab:hover {
     color: white;
 }
 
-/* Reusable code */ 
+/* REUSABLE CODE */ 
 .flex {
     display: flex;
 }
@@ -415,11 +375,10 @@ footer {
 }
 
 .color {
-    color: darkblue;
+    color: #28316F;
 }
 
 .cont {
-    /*min-height: 100vh;*/
     width: 100%;
     display: flex;
     align-items: center;
@@ -430,7 +389,7 @@ footer {
 h2 {
     font-size: 2.5rem;
     font-weight: 600;
-    color:darkblue;
+    color: #28316F;
     margin-top: 6rem;
     margin-bottom: 2rem;
     line-height: 2.4rem;
