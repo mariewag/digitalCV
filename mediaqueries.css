@@ -27,8 +27,6 @@
         line-height: 2rem;
     }
 
-
-
     /* Header */
     header .navbar {
         padding: 0 2rem;
@@ -44,7 +42,7 @@
         top: 0;
         right: -100%;
         background: lightgrey;
-        height: 35vh;
+        height: 45vh;
         width: 100%;
         max-width: 20rem;
         display: block;
