@@ -145,6 +145,7 @@ nav .navbar-links li a:hover {
 
 #start {
     background-image: url("./images/sea.png");
+    background-size: cover;
 }
 
 
