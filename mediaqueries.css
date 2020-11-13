@@ -1,5 +1,28 @@
-/* Tablet */
-@media (max-width: 750px) {
+/* SMALL DESKTOP */
+@media (max-width: 1080px) {
+    /* Start */
+    .name-title {
+        font-size: 6rem;
+        line-height: 4rem;
+    }
+
+    .typing {
+        font-size: 1.8rem;
+    }
+
+    .arrow-down {
+        font-size: 2rem;
+    }
+
+    /* Projects */
+    .gallery-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+/* TABLET */
+@media (max-width: 740px) {
     body {
         font-size: 1rem;
     }
@@ -14,7 +37,27 @@
         
     }
 
-    /* Main index */
+    /* Header */
+    .navbar {
+        height: 5rem; 
+    }
+
+    /* Start */
+    .name-title {
+        font-size: 5rem;
+        line-height: 4rem;
+    }
+
+    .typing {
+        font-size: 1.5rem;
+    }
+
+    .typing::after {
+        height: 1.5rem;
+        top: .5rem;
+    }
+
+    /* About */
     .image-face {
         width: 15rem;
         height: 15rem; 
@@ -22,7 +65,7 @@
         padding-left: 1rem;
     }
 
-    /* Main cv */
+    /* CV */
     .skills-text ul li {
         line-height: 2rem;
     }
@@ -42,7 +85,7 @@
         top: 0;
         right: -100%;
         background: lightgrey;
-        height: 45vh;
+        height: 50vh;
         width: 100%;
         max-width: 20rem;
         display: block;
@@ -65,6 +108,31 @@
         transition: all 0.3s ease;
     }
 
+    /* Contact */
+    .contact-text {
+        font-size: 1.5rem;
+    }
+
+    .contact-title {
+        line-height: .5rem;
+    }
+
+
+    /* Projects */
+    .gallery-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .img-text {
+        font-size: 1rem;
+    }
+
+    figcaption {
+        margin-top: .3rem;
+        margin-bottom: 0;
+        line-height: 2rem;   
+    }
+
     /* Footer */
     footer .footer-container {
         padding: 0 2rem;
@@ -73,7 +141,6 @@
     .icons ul li .fab {
         font-size: 1.2rem;
         line-height: 2.3rem;
-        color: darkblue;
     }
 
     .icons ul li a {
@@ -85,3 +152,93 @@
         font-size: .7rem;
     }
 }
+
+
+/* MOBILE */
+@media (max-width: 550px) {
+    /* Start */
+    .name-title {
+        font-size: 3.5rem;
+        line-height: 2rem;
+    }
+
+    .typing {
+        font-size: 1.3rem;
+    }
+
+     /* Footer */  
+     .icons ul li {
+        margin: 0 .5rem;
+    }
+
+    /* CV */  
+    .cv-info {
+        gap: 2rem;
+    }
+}
+    
+/* SMALL MOBILE */
+@media (max-width: 380px) {
+    body {
+        font-size: .9rem;
+    }
+    
+    /* Start */
+    .name-title {
+        font-size: 2.8rem;
+        line-height: 1.5rem;
+    }
+
+    .typing {
+        font-size: 1.2rem;
+    }
+
+    .arrow-down {
+        font-size: 1.5rem;
+    }
+
+     /* CV */  
+    .cv-info {
+        gap: 1rem;
+    }
+
+    /* Projects */ 
+    .gallery-grid {
+        margin: 5rem;
+        padding: 0 3rem;
+    }
+
+    .img-text {
+        font-size: .9rem;
+    }
+
+    .gallery-frame {
+        margin: 0 2rem;
+        width: 18rem;;
+    }
+
+    /* Contact */
+    .contact-text {
+        font-size: 1rem;
+    }
+    
+    .contact-title {
+        margin-top: 0;
+    }
+
+     /* Footer */
+     .icons ul li .fab {
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+    }
+
+    .icons ul li a {
+        width: 1.8rem;
+        height: 1.8rem;
+    }
+
+    .copyright {
+        font-size: .6rem;
+    }
+}
+
