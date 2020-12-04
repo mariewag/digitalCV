@@ -2,12 +2,17 @@
 @media (max-width: 1080px) {
     /* Start */
     .name-title {
-        font-size: 6rem;
+        font-size: 5rem;
         line-height: 4rem;
     }
 
     .typing {
         font-size: 1.8rem;
+    }
+
+    .typing::after {
+        height: 1.8rem;
+        top: .7rem;
     }
 
     .arrow-down {
@@ -33,8 +38,7 @@
     }
 
     h4 {
-        font-size: 1rem;
-        
+        font-size: 1rem;   
     }
 
     /* Header */
@@ -44,8 +48,9 @@
 
     /* Start */
     .name-title {
-        font-size: 5rem;
-        line-height: 4rem;
+        font-size: 4rem;
+        line-height: 3rem;
+        margin-top: 8rem;
     }
 
     .typing {
@@ -158,8 +163,9 @@
 @media (max-width: 550px) {
     /* Start */
     .name-title {
-        font-size: 3.5rem;
+        font-size: 3rem;
         line-height: 2rem;
+        margin-top: 6rem;
     }
 
     .typing {
@@ -193,6 +199,10 @@
         font-size: 1.2rem;
     }
 
+    .typing::after {
+        height: 1rem;
+    }
+
     .arrow-down {
         font-size: 1.5rem;
     }
@@ -203,9 +213,12 @@
     }
 
     /* Projects */ 
+    .projects h2 {
+        margin-bottom: 1rem;
+    }
+
     .gallery-grid {
-        margin: 5rem;
-        padding: 0 3rem;
+        margin-bottom: 2.5rem;     
     }
 
     .img-text {
@@ -213,7 +226,6 @@
     }
 
     .gallery-frame {
-        margin: 0 2rem;
         width: 18rem;;
     }
 
