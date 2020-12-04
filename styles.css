@@ -88,10 +88,10 @@ nav .navbar-links li a:hover {
 
 /* START */
 .name-title {
-    font-size: 8rem;
-    font-weight: 900;
+    font-size: 5rem;
+    font-weight: 600;
     margin: 0;
-    line-height: 6rem; 
+    line-height: 4rem; 
     color: lightgrey;
     margin-top: 10rem;
 }
@@ -219,7 +219,8 @@ nav .navbar-links li a:hover {
 .projects {
     grid-template-columns: repeat(auto-fit, minmax(80rem, 1fr));
     grid-gap: 1rem;
-    justify-items: center;
+    text-align: center;
+    
 }
 
 .gallery-grid {
@@ -228,6 +229,7 @@ nav .navbar-links li a:hover {
     margin: 0;
     padding: 0;
     max-width: 80rem;
+
   }
   
   .gallery-frame {
@@ -380,7 +382,7 @@ footer {
 }
 
 .cont {
-    width: 100%;
+    min-width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
